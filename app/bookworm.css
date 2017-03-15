@@ -1,0 +1,141 @@
+.user-head {
+	position: relative;
+	padding: 0px;
+}
+.user-profile {
+	position: absolute;
+	height: 50px;
+	width: 130px;
+	padding-left: 40px;
+	padding-right: 40px; 
+	margin-top: 40px;
+}
+.user-nickname{
+	position: absolute;
+	width: 130px;
+	text-align: center;
+	margin-top: 95px;
+	color: white;
+	text-shadow: 1px 2px 5px #000
+}.radius{
+	border-radius:50%; 
+	overflow:hidden;
+}
+.box-shadow{  
+	-webkit-box-shadow: 1px 1px 1px;  
+	-moz-box-shadow: 1px 1px 1px;  
+	box-shadow: 1px 1px 1px;  
+}  
+
+.tools-item{
+	position: relative;
+	padding: 0px;
+	height: 55px;
+	background: #ddd;
+}
+.tools-item-in{
+	margin-left: 0px;
+	margin-top: 0px;
+	height: 50px;
+	width: 100%;
+	background: white;
+}
+.tool-size{
+	width: 30px;
+	height: 30px;
+}
+.add-position{
+	position: absolute;
+	right: 10px;
+	margin-top: 10px;
+}
+.tag-position{
+	position: absolute;
+	right: 55px;
+	margin-top: 10px;
+}
+
+.user-bg-img {
+	height: 720px;
+	width: 1080px;
+}
+
+.book-item {
+	position: relative;
+	height: 88px;
+	padding: 4px;
+	width: 100%;
+}
+.book-rank {
+	font-size: 22px;
+	position: absolute;
+	width: 40px;
+	height: 80px; 
+	padding-top: 22px;
+	text-align:center;
+}
+.book_img {
+	position: absolute;
+	width: 60px; 
+	height: 80px;
+	padding: 4px;
+	margin-left: 40px;
+}
+.book-title {
+	margin-left: 104px;
+	padding: 0px
+	height: 20px;
+	margin-top: 26px;
+	margin-bottom: 0;
+
+}
+.book-author {
+	margin-left: 104px;
+	color: #999;
+	margin-top: 1px;
+	height: 12px;
+}
+.bool-left { 
+	position: absolute;
+	height: 80px;
+	width: 100px;
+	right: 0px;
+	top: 0px;
+	padding: 0px;
+}
+
+.bool-state {
+	position: absolute;
+	padding-top: 22px;
+	font-size: 20px;
+	width: 50px;
+	height: 80px;
+	text-align: center;
+}
+.like-span { 
+	height: 20px;
+	width: 40px;
+	margin-top: 20px;
+	margin-left: 60px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+.like-img { 
+	height: 20px;
+	width: 20px;
+}
+.bool-like-num { 
+	height: 20px;
+	width: 40px;
+	margin-left: 60px;
+	text-align: center;
+	color: #999;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
